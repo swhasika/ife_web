@@ -1,0 +1,148 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background: #eee;
+	font-family: "Microsoft Yahei"
+}
+
+p{
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 150%;
+}
+
+#head{
+	background: #60f0e5;
+	height: 60px;
+	padding: 10px;
+	margin: 0px;
+}
+
+.logo>img{
+	width: 110px;
+	margin-top: auto;
+	margin-left: 30px;
+}
+
+ul.top-list li{
+	display: inline-block;
+	height: 30px;
+	line-height: 150%;
+	float: right;
+	margin-right: 20px;
+}
+
+.firstpage,.secondpage,.lastpage,.image,.foot{
+	box-shadow: 3px 3px 5px #9f9f9f;/*添加阴影*/
+	margin:20px;
+	padding: 20px;
+	background: #FFFFFF;
+	display:block;
+	border: 1px solid #ddd;
+}
+
+a{
+	font-weight: bold;
+    color: #331AE7;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: red;
+}
+
+.secondpage>ul{
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.imagebox{
+	border: 1px solid #000000;
+	width: 120px;
+	padding: 20px;
+	margin:20px;
+}
+
+.imagebox>p{
+	margin: 5px auto;
+	font-size: 14px;
+}
+
+.imagebox>img{
+	width: 100px;
+	height: 80px;
+}
+
+.lastpage>ol{
+	font-size: 14px;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+table{
+	width: 100%;
+	border-collapse:collapse;/*为表格设置合并边框模型：如果可能，边框会合并为一个单一的边框。会忽略 border-spacing 和 empty-cells 属性*/
+	margin: 0px 10px 10px 10px;	
+}
+th, td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 5px 10px;
+}
+thead{
+	background: #262626;
+	color: #FFFFFF;
+}
+tfoot{
+	background: #C1C1C1;
+	color:#FFFFFF;
+}
+
+form>label{
+    display: inline-block;
+    width: 26%;
+    text-align: right;
+    margin: 10px;
+}
+
+
+.form-left{ /*因为没有设定宽度，所以必须要在下面设定一个，都则宽度只是文字的，到不了中间*/
+	float: left;
+    width: 400px;
+	text-align: right;/*left的 div 文本右对齐*/
+    margin-right: 15px;/*两个 div 之间的外边距*/
+    line-height: 200%;/*行高，更美观*/
+}
+
+.form-right{/*这个 div 不需要设定浮动，因为是浮动是标准文档流内，下面的内容自动排在后面*/
+	line-height: 200%;
+}
+
+span{
+	font-size: 10px;
+	color: #C1C1C1;
+}
+
+.submit{
+    border-radius: 25px;
+    width: 100%;
+    background: #FF9F00;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
