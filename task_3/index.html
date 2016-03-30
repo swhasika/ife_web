@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>task3</title>
+	<link type="text/css" rel="stylesheet" href="css/common.css" />
+	<style type="text/css">
+		/* simply I put all css code internally here just for this single page*/
+		body {
+			padding: 20px;
+		}
+		
+		#team-area {
+			background-color: #eee;
+			padding: 20px;
+		}		
+		#team-basic {
+			background-color: #fff;			
+			border: 1px solid #999;
+			box-sizing: border-box;
+			width: 200px;
+			padding: 20px;
+			float: left;
+		}
+		#team-basic img {
+			float: left;
+			width: 80px; 
+			height: 80px; 
+			margin-right: 20px;
+		}
+		#team-members {
+			background-color: #fff;	
+			border: 1px solid #999;
+			box-sizing: border-box;
+			width: 120px;
+			padding: 20px; 
+			float: right;
+		}
+		#team-members ul {
+			list-style-type: none;
+		}		
+		#team-members img {			
+			width: 80px; 
+			height: 80px; 			
+		}
+		#team-members ul li {
+			height: 80px;        /*todo: li的高度在所包含的img高度之外有一点空白，chrome下是83px，Firefox下是84.8px，这里强制其仅包含img*/
+			margin-bottom: 20px;
+		}
+		#team-members ul li:last-child {
+			margin-bottom: 0;
+		}
+		#team-details {
+			background-color: #fff;	
+			border: 1px solid #999;
+			padding: 20px;
+			margin-left: 220px;
+			margin-right: 140px;
+		}
+		#justwrap {
+			width: 100%;
+			float: left;
+			margin-right: -120px;
+		}
+		
+		#team-details dt {
+			font-weight: bold;
+			margin: 5px 0;
+		}
+		
+		#team-details p.note {
+			color: #f00;
+			margin: 5px 0;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="team-area" class="clearfix">		<!--the parent wrapper-->
+		<div id="justwrap">
+		<div id="team-basic" class="clearfix">	<!--the left column, fixed width-->
+			<img src="img/team_logo.png" alt="team photo" />
+			<span>如何调戏前端妹子</span>
+		</div>
+		<div id="team-details">	<!--the center column, fluid width-->
+			<h2>About Us</h2>
+			<p>我们是来自不同地区的热爱编程的程序员和两个程序媛，有妹子就是优势嘻嘻嘻（逃
+			</p>
+			<dl>
+				<dt>于冬</dt>
+				<dd>目前大四，正在自学前端，找工作中</dd>
+				<dt>王凤莲</dt>
+				<dd>是个姐，比我大应该工作了要不就是读研中</dd>
+				<dt>肖果平</dt>
+				<dd>东南大学研究生</dd>
+				
+			</dl>
+			<hr />
+			<p class="note">测试变化</p>
+		</div>
+		</div>
+		<div id="team-members">	<!--the right column, fixed width-->
+			<ul>
+				<li><img src="img/member1.jpg" alt="1" /></li>
+				<li><img src="img/member2.jpg" alt="2" /></li>
+				<li><img src="img/member3.jpg" alt="3" /></li>
+				
+			</ul>			
+		</div>
+	</div>
+</body>
+
+</html>
