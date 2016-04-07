@@ -1,9 +1,7 @@
 #gray {
     width: 400px;
     height: 200px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    position: absolute; 
     margin: auto;
     background-color: #ccc;
     top: 0; left: 0; bottom: 0; right: 0; 
