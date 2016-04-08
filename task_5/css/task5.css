@@ -1,0 +1,112 @@
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	margin: 0;
+	border: 0;
+	background-color: #dedede;
+	min-width: 750px;
+}
+.head{
+	height: 50px;
+	width: 100%;
+	margin: 0;
+
+	padding:0;
+	background-color: #333333;
+	display: table;/*此元素会作为块级表格来显示（类似 <table>），表格前后带有换行符。*/
+	vertical-align: middle;/*把此元素放置在父元素的中部。*/
+}
+.head span{
+	display: table-cell;/*此元素会作为一个表格单元格显示（类似 <td> 和 <th>）*/
+	vertical-align: middle;
+	height: 70px;
+}
+.head span img{
+	margin-left: 35px;
+	cursor: pointer;/*光标呈现为指示链接的指针（一只手）*/
+}
+nav ul{
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+nav ul li{
+	line-height: 70px;
+	float: left;
+	margin-right:20px; 
+}
+nav ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: yellow;/*选择鼠标指针浮动在其上的元素，并设置其样式：*/
+}
+article{
+	margin-top: 40px;
+	background: #fff;
+	margin-left: 20px;
+	margin-right: 500px;
+	padding: 20px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 2px #848484;
+}
+aside{
+	background: #fff;
+	float: right;
+	width: 350px;
+	margin-top: 40px;
+	margin-right: 20px;
+	padding: 20px;
+	box-shadow: 2px 2px 2px #848484;
+}
+
+figure{
+	height: 120px;
+	width: 100px;
+	border: 1px solid #aaa;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 40px;
+	display: inline-block;
+}
+figcaption{
+	padding: 5px;
+}
+.grayColor{
+	color: gray;
+}
+table{
+	width:100%;
+	margin:0 auto;
+	border-color:#ccc;
+	border-collapse: collapse;
+}
+form{
+	width: 100%;
+
+	
+}
+	
+form>div{
+	magin:10px 0;
+}
+
+.inputMassage{
+	width:30%;
+	text-align: left;
+
+}
+demand{
+	font-size: 13px;
+	color: gray;
+
+}
+textarea{
+	margin-top: 10px;
+	width: 30%;
+}
+footer{
+	text-align: center;
+}
